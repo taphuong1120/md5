@@ -16,7 +16,7 @@
 <div class="container" style="width: 500px">
   <br>
   <br>
-  <h2>Create <b>Tour</b></h2>
+  <h2>Thêm <b>Tour</b></h2>
   <form style="width: 500px" [formGroup]="createForm" (ngSubmit)="create()">
     <div class="form-group">
       <label >Tên Tour</label>
@@ -31,7 +31,7 @@
       <textarea style="height: 200px"   class="form-control"  placeholder="Nhập mô tả" formControlName="description"></textarea>
     </div>
 
-    <button type="submit" class="btn btn-primary" style="margin-right: 10px">Create</button>
-    <a routerLink="" type="submit" class="btn btn-info">Cancel</a>
+    <button type="submit" class="btn btn-primary" style="margin-right: 10px">Thêm mới</button>
+    <a routerLink="" type="submit" class="btn btn-info">Hủy</a>
   </form>
 </div>
