@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {TourService} from "./service/tour.service";
-import {Tour} from "../models/Tour";
+import {Tour} from "./models/Tour";
 
 @Component({
   selector: 'app-root',
@@ -8,9 +8,9 @@ import {Tour} from "../models/Tour";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'thimd5';
+  title = 'exammd5';
 
-  constructor(private tourservice:TourService) { }
+  constructor(private tourService:TourService) { }
 
   ngOnInit(): void {
   }

@@ -30,7 +30,7 @@
     }
     .table-title {
       padding-bottom: 15px;
-      background: #435d7d;
+      /*background: #435d7d;*/
       color: #fff;
       padding: 16px 30px;
       min-width: 100%;
@@ -46,7 +46,7 @@
     }
     .table-title .btn {
       color: #fff;
-      float: right;
+      /*float: left;*/
       font-size: 13px;
       border: none;
       min-width: 50px;
@@ -270,7 +270,7 @@
       <div class="table-title">
         <div class="row">
           <div class="col-sm-6">
-            <h2>Show <b>Tour</b></h2>
+<!--            <h2>Show <b>Tour</b></h2>-->
           </div>
           <div class="col-sm-6">
             <a routerLink="create" class="btn btn-success" > <span>Thêm</span></a>
@@ -285,8 +285,8 @@
           </th>
           <th>Tour</th>
           <th>Giá</th>
-          <th >Edit</th>
-          <th >Delete</th>
+          <th ></th>
+          <th ></th>
         </tr>
         </thead>
         <tbody *ngFor="let t of tours,index as i">
